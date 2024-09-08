@@ -4,6 +4,8 @@
 
 This project implements a real-time face detection system using Python and OpenCV. It captures video from a webcam, processes each frame to detect faces, and displays the results live with bounding boxes around detected faces.
 
+![alt text](https://github.com/aneangel/cv-projects/blob/main/facial-detection/sampleImage.png)
+
 ## Current Features
 
 - Real-time video capture from webcam
