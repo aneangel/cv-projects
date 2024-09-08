@@ -3,7 +3,7 @@ import numpy as np
 
 def real_time_face_detection():
     cap = cv2.VideoCapture(0)
-    haar = cv2.CascadeClassifier('./opencvXML/haarcascade_frontalface_default.xml')
+    haar = cv2.CascadeClassifier('facial-detection/opencvXML/haarcascade_frontalface_default.xml')
 
     if not cap.isOpened():
         print("Error: Could not open camera.")
